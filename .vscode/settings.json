@@ -1,0 +1,50 @@
+{
+    "editor.tabSize": 4,
+
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines" : true,
+    "files.insertFinalNewline": true,
+
+    "[restructuredtext]": {
+        "editor.wordBasedSuggestions": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.tabSize": 3,
+        "editor.rulers": [80]
+    },
+
+    "[markdown]": {
+        "editor.wordBasedSuggestions": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.rulers": [80],
+        "files.trimTrailingWhitespace": false
+    },
+
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#0088aa88"
+    },
+
+    "restructuredtext.confPath": "${workspaceFolder}\\doc",
+    "restructuredtext.linter.name": "doc8",
+    "restructuredtext.updateOnTextChanged": "false",
+    "restructuredtext.updateDelay": 1000,
+    "restructuredtext.linter.run": "onSave",
+
+    "spellright.documentTypes": [
+        "plaintext",
+        "markdown",
+        "latex",
+        "restructuredtext"
+    ],
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.notificationClass": "information",
+}
